@@ -528,7 +528,7 @@ public class SeaboardMeshCreator
             else
             {
                 current = finalCombinedBoard[vertexCount - 2];
-                next = finalCombinedBoard[vertexCount - 2];
+                next = finalCombinedBoard[vertexCount - 1];
                 normals.Add(CalculateNormalByTwoVertexs(current, next));
             }
             
